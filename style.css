@@ -12,6 +12,7 @@ h1 {
 }
 h2 {
   color: #575757;
+  font-size: 30px;
 }
 p {
   margin-bottom: 55px;
@@ -48,6 +49,13 @@ nav img {
   color: #575757;
 }
 
+.nav-links ul li a:hover {
+  background-color: #612ced;
+  color: white;
+  padding: 3px 5px;
+  transition: 0.5s;
+}
+
 #header-textbox {
   margin-top: 50px;
 }
@@ -81,12 +89,12 @@ nav img {
 .about-me {
   background-image: url(images/bg-1.jpg);
   background-repeat: no-repeat;
-  background-attachment: initial;
+  background-size: 100% 100%;
   padding-top: 80px;
   position: relative;
+  align-items: center;
 }
 .about-me h2 {
-  font-size: 30px;
   margin-bottom: 30px;
 }
 .about-me p {
@@ -97,18 +105,13 @@ nav img {
   padding-left: 100px;
 }
 #person-image {
-  width: 40%;
+  width: 50%;
   padding-left: 200px;
 }
 
 .recipe-text {
   text-align: center;
 }
-
-.recipe-text h2 {
-  font-size: 30px;
-}
-
 .recipe-item {
   width: 300px;
   height: 500px;
@@ -139,7 +142,7 @@ footer {
   padding-top: 10px;
   text-align: center;
   background-color: rgb(20, 20, 20);
-  height: 150px;
+  height: 200px;
 }
 footer h2 {
   font-size: 40px;
